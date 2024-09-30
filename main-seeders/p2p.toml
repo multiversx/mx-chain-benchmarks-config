@@ -50,7 +50,7 @@
 
     #ProtocolID represents the protocol that this node will advertize to other peers
     #To connect to other nodes, those nodes should have the same ProtocolID string
-    ProtocolID = "/erd/kad/0.2.3"
+    ProtocolID = "/erd/mvxbench/1.0.0"
 
     #InitialPeerList represents the list of strings of some known nodes that will bootstrap this node
     #The address will be in a self-describing addressing format.
@@ -62,7 +62,7 @@
     #If the initial peers list is left empty, the node will not try to connect to other peers during initial bootstrap
     #phase but will accept connections and will do the network discovery if another peer connects to it
     InitialPeerList = [
-        "",
+        "/ip4/10.200.0.2/tcp/10000/p2p/16Uiu2HAmJKhpJWC4AmEXPND3xbEha7rq1zahesePBJTWdRC9uiB7",
     ]
 
     #kademlia's routing table bucket size
