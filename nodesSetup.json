@@ -1,6 +1,6 @@
 {
   "TODO": "do not forget about setting the startTime to somewhere in the future",
-  "startTime": 1980243300,
+  "startTime": 1727782500,
   "roundDuration": 6000,
   "consensusGroupSize": 2,
   "minNodesPerShard": 2,
